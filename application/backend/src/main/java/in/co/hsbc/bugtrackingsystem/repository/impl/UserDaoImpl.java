@@ -5,7 +5,7 @@ import in.co.hsbc.bugtrackingsystem.entity.User;
 import in.co.hsbc.bugtrackingsystem.util.DatabaseConnection;
 import in.co.hsbc.bugtrackingsystem.exception.UserAlreadyExistsException;
 import in.co.hsbc.bugtrackingsystem.exception.UserNotFoundException;
-
+//imported necessary files
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
