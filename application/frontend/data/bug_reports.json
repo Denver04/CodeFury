@@ -1,0 +1,200 @@
+[
+    {
+        "bugId": "B001",
+        "title": "User login page fails to load after recent update",
+        "description": "After the recent update to the application, the user login page fails to load, causing users to be unable to access their accounts. This issue needs immediate attention.",
+        "severity": "Critical",
+        "status": "Open",
+        "createdBy": "Rohan Gupta",
+        "assignedTo": "Priya Reddy",
+        "createdOn": "2024-08-17T10:00:00+05:30",
+        "project": "Login Page Update"
+    },
+    {
+        "bugId": "B002",
+        "title": "Error message displayed for invalid email format is unclear",
+        "description": "The error message shown when an invalid email format is entered is not user-friendly and lacks clarity. It needs to be revised to provide more specific guidance to the users.",
+        "severity": "Medium",
+        "status": "In Progress",
+        "createdBy": "Carol Gray",
+        "assignedTo": "Isha Kapoor",
+        "createdOn": "2024-08-17T11:00:00+05:30",
+        "project": "User Registration"
+    },
+    {
+        "bugId": "B003",
+        "title": "Application crashes when submitting the feedback form",
+        "description": "Submitting the feedback form on the application causes it to crash unexpectedly. This issue prevents users from providing feedback and needs to be resolved urgently.",
+        "severity": "High",
+        "status": "Open",
+        "createdBy": "Sneha Nair",
+        "assignedTo": "Frank Eve",
+        "createdOn": "2024-08-17T12:00:00+05:30",
+        "project": "Feedback System"
+    },
+    {
+        "bugId": "B004",
+        "title": "Navigation menu disappears on mobile view in Safari",
+        "description": "In the mobile view of Safari, the navigation menu disappears, preventing users from accessing different sections of the site. This bug needs fixing to ensure usability.",
+        "severity": "High",
+        "status": "In Progress",
+        "createdBy": "George",
+        "assignedTo": "Rajesh Kumar",
+        "createdOn": "2024-08-17T13:00:00+05:30",
+        "project": "Mobile Optimization"
+    },
+    {
+        "bugId": "B005",
+        "title": "Password reset link does not work after password change",
+        "description": "After changing the password, the password reset link sent to users is no longer functional. This issue could affect user experience and needs immediate resolution.",
+        "severity": "Critical",
+        "status": "Closed",
+        "createdBy": "Meera Joshi",
+        "assignedTo": "Ananya Patel",
+        "createdOn": "2024-08-17T14:00:00+05:30",
+        "project": "User Management"
+    },
+    {
+        "bugId": "B006",
+        "title": "Error in calculation of discount on checkout page",
+        "description": "The checkout page is not calculating discounts correctly, which results in incorrect final pricing. This issue needs urgent attention to ensure accurate billing.",
+        "severity": "High",
+        "status": "In Progress",
+        "createdBy": "Arjun Desai",
+        "assignedTo": "Priya Reddy",
+        "createdOn": "2024-08-17T15:00:00+05:30",
+        "project": "Checkout System"
+    },
+    {
+        "bugId": "B007",
+        "title": "App freezes when uploading large files",
+        "description": "When users attempt to upload large files, the application freezes and becomes unresponsive. This bug affects user experience and should be fixed as soon as possible.",
+        "severity": "High",
+        "status": "Open",
+        "createdBy": "Mia",
+        "assignedTo": "Nate",
+        "createdOn": "2024-08-17T16:00:00+05:30",
+        "project": "File Upload"
+    },
+    {
+        "bugId": "B008",
+        "title": "Broken links on the contact page",
+        "description": "Several links on the contact page are broken and lead to 404 errors. These links need to be fixed to ensure users can access the intended information.",
+        "severity": "Medium",
+        "status": "In Progress",
+        "createdBy": "Aarav Sharma",
+        "assignedTo": "Vikram Singh",
+        "createdOn": "2024-08-17T17:00:00+05:30",
+        "project": "Website Maintenance"
+    },
+    {
+        "bugId": "B009",
+        "title": "Search bar does not display autocomplete suggestions",
+        "description": "The search bar is not providing autocomplete suggestions as users type their queries. This bug impacts the usability and efficiency of the search function.",
+        "severity": "Medium",
+        "status": "Closed",
+        "createdBy": "Quincy",
+        "assignedTo": "Rita",
+        "createdOn": "2024-08-17T18:00:00+05:30",
+        "project": "Search Functionality"
+    },
+    {
+        "bugId": "B010",
+        "title": "Database connection errors during peak hours",
+        "description": "During peak usage hours, users experience database connection errors which disrupt the service. This issue needs to be addressed to improve system reliability.",
+        "severity": "Critical",
+        "status": "In Progress",
+        "createdBy": "Steve",
+        "assignedTo": "Tina",
+        "createdOn": "2024-08-17T19:00:00+05:30",
+        "project": "Database Management"
+    },
+    {
+        "bugId": "B011",
+        "title": "Broken image links on the homepage",
+        "description": "The homepage has several broken image links that are not displaying the intended visuals. This affects the aesthetics of the homepage and should be fixed.",
+        "severity": "Low",
+        "status": "Open",
+        "createdBy": "Vikram Singh",
+        "assignedTo": "Rajesh Kumar",
+        "createdOn": "2024-08-17T20:00:00+05:30",
+        "project": "Homepage Design"
+    },
+    {
+        "bugId": "B012",
+        "title": "Incorrect timezone display in user profile settings",
+        "description": "The timezone displayed in user profile settings is incorrect, leading to confusion about the actual time zone. This needs correction for accurate user information.",
+        "severity": "Medium",
+        "status": "Closed",
+        "createdBy": "Will",
+        "assignedTo": "Xena",
+        "createdOn": "2024-08-17T21:00:00+05:30",
+        "project": "User Profile"
+    },
+    {
+        "bugId": "B013",
+        "title": "Email notifications are not sent for new messages",
+        "description": "Users are not receiving email notifications for new messages, which impacts communication. This issue needs to be resolved to ensure timely notifications.",
+        "severity": "High",
+        "status": "Open",
+        "createdBy": "Isha Kapoor",
+        "assignedTo": "Rajesh Kumar",
+        "createdOn": "2024-08-17T22:00:00+05:30",
+        "project": "Notification System"
+    },
+    {
+        "bugId": "B014",
+        "title": "Error in data export functionality for reports",
+        "description": "The data export functionality for generating reports is not working correctly, causing errors during export. This bug needs to be fixed to ensure proper report generation.",
+        "severity": "Critical",
+        "status": "In Progress",
+        "createdBy": "Meera Joshi",
+        "assignedTo": "Bob Alice",
+        "createdOn": "2024-08-17T23:00:00+05:30",
+        "project": "Reporting System"
+    },
+    {
+        "bugId": "B015",
+        "title": "Mobile app crashes on startup after update",
+        "description": "After the latest update, the mobile app crashes immediately on startup. This issue prevents users from using the app and requires urgent resolution.",
+        "severity": "Critical",
+        "status": "Open",
+        "createdBy": "Carol",
+        "assignedTo": "Meera Joshi",
+        "createdOn": "2024-08-18T00:00:00+05:30",
+        "project": "Mobile App"
+    },
+    {
+        "bugId": "B016",
+        "title": "Form validation fails for special characters in input",
+        "description": "The form validation does not handle special characters correctly, leading to input errors. This needs fixing to ensure proper form submission.",
+        "severity": "Medium",
+        "status": "In Progress",
+        "createdBy": "Eve",
+        "assignedTo": "Frank",
+        "createdOn": "2024-08-18T01:00:00+05:30",
+        "project": "Form Validation"
+    },
+    {
+        "bugId": "B017",
+        "title": "Dashboard widgets fail to load data after refresh",
+        "description": "Widgets on the dashboard fail to load data after a page refresh, causing users to see outdated or missing information. This needs to be addressed to maintain data accuracy.",
+        "severity": "High",
+        "status": "Open",
+        "createdBy": "George",
+        "assignedTo": "Helen",
+        "createdOn": "2024-08-18T02:00:00+05:30",
+        "project": "Dashboard"
+    },
+    {
+        "bugId": "B018",
+        "title": "Error handling in checkout process is inconsistent",
+        "description": "The error handling during the checkout process is inconsistent, leading to confusion and potential loss of sales. This should be standardized for a better user experience.",
+        "severity": "Medium",
+        "status": "In Progress",
+        "createdBy": "Aarav Sharma",
+        "assignedTo": "Vikram Singh",
+        "createdOn": "2024-08-18T03:00:00+05:30",
+        "project": "Checkout Process"
+    }
+]
