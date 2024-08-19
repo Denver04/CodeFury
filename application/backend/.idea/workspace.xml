@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="dca2b662-7671-4085-8adb-d32ac1bebcfc" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/in/co/hsbc/bugtrackingsystem/entity/Bug.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/in/co/hsbc/bugtrackingsystem/entity/Project.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/in/co/hsbc/bugtrackingsystem/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/in/co/hsbc/bugtrackingsystem/exception/UserAlreadyExistsException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/in/co/hsbc/bugtrackingsystem/factory/CompositeFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/in/co/hsbc/bugtrackingsystem/factory/EntityFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/in/co/hsbc/bugtrackingsystem/BugDaoImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/in/co/hsbc/bugtrackingsystem/ProjectDaoImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/in/co/hsbc/bugtrackingsystem/UserDaoImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/in/co/hsbc/bugtrackingsystem/repository/BugDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/in/co/hsbc/bugtrackingsystem/repository/BugDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/in/co/hsbc/bugtrackingsystem/repository/ProjectDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/in/co/hsbc/bugtrackingsystem/repository/ProjectDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/in/co/hsbc/bugtrackingsystem/repository/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/in/co/hsbc/bugtrackingsystem/repository/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/in/co/hsbc/bugtrackingsystem/repository/impl/BugDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/in/co/hsbc/bugtrackingsystem/repository/impl/BugDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/in/co/hsbc/bugtrackingsystem/repository/impl/ProjectDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/in/co/hsbc/bugtrackingsystem/repository/impl/ProjectDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/in/co/hsbc/bugtrackingsystem/repository/impl/UserDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/in/co/hsbc/bugtrackingsystem/repository/impl/UserDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/in/co/hsbc/bugtrackingsystem/service/impl/ProjectServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/in/co/hsbc/bugtrackingsystem/service/impl/ProjectServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/in/co/hsbc/bugtrackingsystem/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/in/co/hsbc/bugtrackingsystem/service/impl/UserServiceImpl.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2kpJrgthXJfnHRM6mYCw5QGxxUq" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_directory_selection&quot;: &quot;F:/CodeFury_Project/BugTrackingSystem-codeFury/src/test/java/in/co/hsbc/bugtrackingsystem&quot;,
+    &quot;last_opened_file_path&quot;: &quot;F:/BugTrackingSystem-codeFury&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dca2b662-7671-4085-8adb-d32ac1bebcfc" name="Changes" comment="" />
+      <created>1723974786657</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1723974786657</updated>
+    </task>
+    <servers />
+  </component>
+</project>
