@@ -161,6 +161,8 @@ public class Main {
                 default:
                     view.printMessage("Invalid option, please try again.\n");
             }
+
+            view.printFooter();
         }
 
     }

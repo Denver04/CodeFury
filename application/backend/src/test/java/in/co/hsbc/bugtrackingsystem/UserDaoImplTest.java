@@ -1,10 +1,16 @@
 package in.co.hsbc.bugtrackingsystem;
+import in.co.hsbc.bugtrackingsystem.exception.UserAlreadyExistsException;
+import in.co.hsbc.bugtrackingsystem.exception.UserNotFoundException;
 import in.co.hsbc.bugtrackingsystem.repository.impl.UserDaoImpl;
 import in.co.hsbc.bugtrackingsystem.entity.User;
 import in.co.hsbc.bugtrackingsystem.util.DatabaseConnection;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
+
+import in.co.hsbc.bugtrackingsystem.entity.Project;
+import in.co.hsbc.bugtrackingsystem.entity.Bug;
+import in.co.hsbc.bugtrackingsystem.entity.User;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -34,7 +40,7 @@ public class UserDaoImplTest
     }
 
     @Test
-    public void testAddUser() {
+    public void testAddUser() throws UserAlreadyExistsException {
         User user = new User("U001", "John Doe", "john.doe@example.com", User.Role.TESTER, LocalDateTime.now());
         userDao.addUser(user);
 
@@ -46,7 +52,7 @@ public class UserDaoImplTest
 
 
     @Test
-    public void testDeleteUser() {
+    public void testDeleteUser() throws UserAlreadyExistsException, UserNotFoundException {
         User user = new User("U001", "John Doe", "john.doe@example.com", User.Role.TESTER, LocalDateTime.now());
         userDao.addUser(user);
 
@@ -58,7 +64,7 @@ public class UserDaoImplTest
 
 
     @Test
-    public void testGetUserById() {
+    public void testGetUserById() throws UserAlreadyExistsException {
         User user = new User("U001", "John Doe", "john.doe@example.com", User.Role.TESTER, LocalDateTime.now());
         userDao.addUser(user);
 
@@ -69,7 +75,7 @@ public class UserDaoImplTest
     }
 
     @Test
-    public void testGetAllUsers() {
+    public void testGetAllUsers() throws UserAlreadyExistsException {
         User user1 = new User("U001", "John Doe", "john.doe@example.com", User.Role.TESTER, LocalDateTime.now());
         User user2 = new User("U002", "Jane Smith", "jane.smith@example.com", User.Role.DEVELOPER, LocalDateTime.now());
 

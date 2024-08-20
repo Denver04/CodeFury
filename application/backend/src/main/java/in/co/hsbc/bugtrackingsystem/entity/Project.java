@@ -10,6 +10,8 @@ public class Project {
 
     }
 
+
+
     public enum Status {
         IN_PROGRESS, COMPLETED
     }
@@ -24,12 +26,12 @@ public class Project {
     private List<User> teamMembers = new ArrayList<>(); // Team members working on the project
     private List<Bug> bugs = new ArrayList<>(); // Bugs reported for the project
 
-    public Project(String projectId, String projectName, LocalDate startDate, Status status, User projectManager) {
+    public Project(String projectId, String projectName, LocalDate startDate, Status status) {
         this.projectId = projectId;
         this.projectName = projectName;
         this.startDate = startDate;
         this.status = status;
-        this.projectManager = projectManager;
+
     }
     public String toString() {
         return "Project{" +

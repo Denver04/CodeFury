@@ -1,5 +1,10 @@
 package in.co.hsbc.bugtrackingsystem;
 
+import in.co.hsbc.bugtrackingsystem.entity.Project;
+import in.co.hsbc.bugtrackingsystem.entity.Bug;
+import in.co.hsbc.bugtrackingsystem.entity.User;
+
+import in.co.hsbc.bugtrackingsystem.repository.impl.BugDaoImpl;
 import in.co.hsbc.bugtrackingsystem.util.DatabaseConnection;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
@@ -13,6 +18,7 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
 import java.time.LocalDateTime;
+import java.util.List;
 
 @DisplayName("BugDao Test Cases")
 public class BugDaoImplTest {
@@ -42,7 +48,7 @@ public class BugDaoImplTest {
         bug.setTitle("Null Pointer Exception");
         bug.setDescription("Occurs when accessing a null object");
         bug.setSeverity(Bug.Severity.HIGH);
-        bug.setStatus(Bug.Status.NEW);
+        bug.setStatus(Bug.Status.OPEN);
         bug.setCreatedOn(LocalDateTime.now());
 
         User createdBy = new User();
@@ -71,7 +77,7 @@ public class BugDaoImplTest {
         bug.setTitle("Null Pointer Exception");
         bug.setDescription("Occurs when accessing a null object");
         bug.setSeverity(Bug.Severity.HIGH);
-        bug.setStatus(Bug.Status.NEW);
+        bug.setStatus(Bug.Status.OPEN);
         bug.setCreatedOn(LocalDateTime.now());
 
         User createdBy = new User();
@@ -104,7 +110,7 @@ public class BugDaoImplTest {
         bug.setTitle("Bug to Delete");
         bug.setDescription("This bug will be deleted");
         bug.setSeverity(Bug.Severity.MEDIUM);
-        bug.setStatus(Bug.Status.NEW);
+        bug.setStatus(Bug.Status.OPEN);
         bug.setCreatedOn(LocalDateTime.now());
 
         User createdBy = new User();
@@ -135,7 +141,7 @@ public class BugDaoImplTest {
         bug.setTitle("Null Pointer Exception");
         bug.setDescription("Occurs when accessing a null object");
         bug.setSeverity(Bug.Severity.HIGH);
-        bug.setStatus(Bug.Status.NEW);
+        bug.setStatus(Bug.Status.OPEN);
         bug.setCreatedOn(LocalDateTime.now());
 
         User createdBy = new User();
@@ -164,7 +170,7 @@ public class BugDaoImplTest {
         bug1.setTitle("Bug One");
         bug1.setDescription("First bug");
         bug1.setSeverity(Bug.Severity.LOW);
-        bug1.setStatus(Bug.Status.NEW);
+        bug1.setStatus(Bug.Status.OPEN);
         bug1.setCreatedOn(LocalDateTime.now());
 
         User createdBy1 = new User();
@@ -184,7 +190,7 @@ public class BugDaoImplTest {
         bug2.setTitle("Bug Two");
         bug2.setDescription("Second bug");
         bug2.setSeverity(Bug.Severity.MEDIUM);
-        bug2.setStatus(Bug.Status.NEW);
+        bug2.setStatus(Bug.Status.OPEN);
         bug2.setCreatedOn(LocalDateTime.now());
 
         User createdBy2 = new User();
