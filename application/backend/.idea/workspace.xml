@@ -5,14 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dca2b662-7671-4085-8adb-d32ac1bebcfc" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/in/co/hsbc/bugtrackingsystem/BugTrackingSytemApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/in/co/hsbc/bugtrackingsystem/BugTrackingSytemApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/in/co/hsbc/bugtrackingsystem/entity/Project.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/in/co/hsbc/bugtrackingsystem/entity/Project.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/in/co/hsbc/bugtrackingsystem/service/BugService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/in/co/hsbc/bugtrackingsystem/service/BugService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/in/co/hsbc/bugtrackingsystem/service/ProjectService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/in/co/hsbc/bugtrackingsystem/service/ProjectService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/in/co/hsbc/bugtrackingsystem/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/in/co/hsbc/bugtrackingsystem/service/UserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/in/co/hsbc/bugtrackingsystem/service/impl/BugServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/in/co/hsbc/bugtrackingsystem/service/impl/BugServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/in/co/hsbc/bugtrackingsystem/service/impl/ProjectServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/in/co/hsbc/bugtrackingsystem/service/impl/ProjectServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/in/co/hsbc/bugtrackingsystem/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/in/co/hsbc/bugtrackingsystem/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/in/co/hsbc/bugtrackingsystem/BugDaoImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/in/co/hsbc/bugtrackingsystem/BugDaoImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/in/co/hsbc/bugtrackingsystem/ProjectDaoImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/in/co/hsbc/bugtrackingsystem/ProjectDaoImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/in/co/hsbc/bugtrackingsystem/UserDaoImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/in/co/hsbc/bugtrackingsystem/UserDaoImplTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,19 +42,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_directory_selection": "E:/CodeFury/application/backend/src/main/java/in/co/hsbc/bugtrackingsystem",
-    "last_opened_file_path": "D:/CodeFury/application/backend",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_directory_selection&quot;: &quot;E:/CodeFury/application/backend/src/main/java/in/co/hsbc/bugtrackingsystem&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/CodeFury/application/backend&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="backend" />

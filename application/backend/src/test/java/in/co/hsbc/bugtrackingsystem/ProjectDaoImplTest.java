@@ -5,6 +5,10 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
+import in.co.hsbc.bugtrackingsystem.entity.Project;
+import in.co.hsbc.bugtrackingsystem.entity.Bug;
+import in.co.hsbc.bugtrackingsystem.entity.User;
+
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
@@ -114,7 +118,7 @@ public class ProjectDaoImplTest {
         project2.setProjectId("P002");
         project2.setProjectName("Project Two");
         project2.setStartDate(LocalDate.of(2023, 2, 1));
-        project2.setStatus(Project.Status.NOT_STARTED);
+        project2.setStatus(Project.Status.IN_PROGRESS);
 
         projectDao.addProject(project1);
         projectDao.addProject(project2);

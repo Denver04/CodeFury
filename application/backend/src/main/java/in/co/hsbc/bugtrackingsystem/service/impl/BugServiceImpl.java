@@ -3,7 +3,6 @@ package in.co.hsbc.bugtrackingsystem.service.impl;
 import in.co.hsbc.bugtrackingsystem.entity.Bug;
 import in.co.hsbc.bugtrackingsystem.entity.User;
 import in.co.hsbc.bugtrackingsystem.exception.BugNotFoundException;
-import in.co.hsbc.bugtrackingsystem.exception.ProjectNotFoundException;
 import in.co.hsbc.bugtrackingsystem.repository.BugDao;
 import in.co.hsbc.bugtrackingsystem.repository.UserDao;
 import in.co.hsbc.bugtrackingsystem.repository.impl.BugDaoImpl;
@@ -49,6 +48,7 @@ public class BugServiceImpl implements BugService {
         return bugDao.getBugsByProjectId(projectId);
     }
 
+    @Override
     public void assignBug(String userId,String bugId){
 
         Bug bug = bugDao.getBugById(bugId);
@@ -59,8 +59,6 @@ public class BugServiceImpl implements BugService {
         bug.setAssignedTo(user);
 
         bugDao.addBug(bug);
-
-
 
     }
 

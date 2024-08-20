@@ -12,5 +12,5 @@ public interface BugService {
     Bug getBugById(String bugId) throws BugNotFoundException;
     List<Bug> getAllBugs();
     List<Bug> getBugsByProjectId(String projectId);
-
+    void assignBug(String userId, String bugId);
 }
