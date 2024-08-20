@@ -1,0 +1,18 @@
+{
+    "developers": [
+      { "id": "dev1", "name": "Developer 1" },
+      { "id": "dev2", "name": "Developer 2" },
+      { "id": "dev3", "name": "Developer 3" }
+    ],
+    "testers": [
+      { "id": "tester1", "name": "Tester 1" },
+      { "id": "tester2", "name": "Tester 2" },
+      { "id": "tester3", "name": "Tester 3" }
+    ],
+    "projectManager" : [
+        {"id" : "pm1" , "name": "Project Manager 1" , "projects": [{}]},
+        {"id" : "pm2" , "name": "Project Manager 2", "projects": [{}]},
+        {"id" : "pm3" , "name": "Project Manager 3", "projects": [{}]}
+    ]
+  }
+  
