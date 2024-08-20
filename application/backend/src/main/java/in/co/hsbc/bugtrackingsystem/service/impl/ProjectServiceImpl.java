@@ -2,10 +2,11 @@ package in.co.hsbc.bugtrackingsystem.service.impl;
 
 import in.co.hsbc.bugtrackingsystem.entity.Project;
 import in.co.hsbc.bugtrackingsystem.exception.ProjectNotFoundException;
-import in.co.hsbc.bugtrackingsystem.exception.UserNotFoundException;
 import in.co.hsbc.bugtrackingsystem.repository.ProjectDao;
 import in.co.hsbc.bugtrackingsystem.repository.impl.ProjectDaoImpl;
 import in.co.hsbc.bugtrackingsystem.service.ProjectService;
+
+import java.util.List;
 
 public class ProjectServiceImpl implements ProjectService {
 

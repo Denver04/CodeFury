@@ -1,23 +1,34 @@
 package in.co.hsbc.bugtrackingsystem.service.impl;
 
 import in.co.hsbc.bugtrackingsystem.entity.User;
+import in.co.hsbc.bugtrackingsystem.exception.UserAlreadyExistsException;
 import in.co.hsbc.bugtrackingsystem.exception.UserNotFoundException;
 import in.co.hsbc.bugtrackingsystem.repository.UserDao;
 import in.co.hsbc.bugtrackingsystem.repository.impl.UserDaoImpl;
 import in.co.hsbc.bugtrackingsystem.service.UserService;
+
+import java.util.List;
 
 public class UserServiceImpl implements UserService {
 
     UserDao userDao = new UserDaoImpl();
 
     @Override
-    public void addUser(User user) {
-        userDao.addUser(user);
+    public void addUser(User user) throws UserAlreadyExistsException {
+        try {
+            userDao.addUser(user);
+        } catch (UserAlreadyExistsException e) {
+            throw new UserAlreadyExistsException("User Already Exists");
+        }
     }
 
     @Override
-    public void updateUser(User user) {
-        userDao.updateUser(user);
+    public void updateUser(User user) throws UserNotFoundException {
+        try {
+            userDao.updateUser(user);
+        } catch (UserNotFoundException e) {
+            throw new UserNotFoundException("User does not exist");
+        }
     }
 
     @Override
