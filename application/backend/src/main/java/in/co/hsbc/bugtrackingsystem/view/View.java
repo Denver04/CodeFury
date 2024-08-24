@@ -23,4 +23,10 @@ public class View {
         System.out.println(message);
     }
 
+    public void printFooter()
+    {
+        System.out.println("Thank You for Accessing Bug Tracking Application");
+        System.out.println("===============================");
+        System.out.println("~~ END ~~");
+    }
 }
