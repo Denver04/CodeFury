@@ -53,7 +53,7 @@ fetch("./data/bug_reports.json")
               else if (data === "Closed")
                 return `<div class="d-flex justify-content-center">                              
                     <select name="status" id="status" class="w-100 text-sm text-bg-danger p-1">
-                        <option value=${data}>Closed</option>
+                        <option value=${data} class="text-primary">Closed</option>
                         <option value="open">Open</option>
                         <option value="in-progress">In-Progress</option>
                     </select>
