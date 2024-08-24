@@ -1,6 +1,9 @@
 package in.co.hsbc.bugtrackingsystem;
 
 import in.co.hsbc.bugtrackingsystem.entity.*;
+import in.co.hsbc.bugtrackingsystem.exception.ProjectNotFoundException;
+import in.co.hsbc.bugtrackingsystem.exception.UserAlreadyExistsException;
+import in.co.hsbc.bugtrackingsystem.exception.UserNotFoundException;
 import in.co.hsbc.bugtrackingsystem.factory.CompositeFactory;
 import in.co.hsbc.bugtrackingsystem.service.impl.BugServiceImpl;
 import in.co.hsbc.bugtrackingsystem.service.impl.ProjectServiceImpl;
@@ -11,8 +14,8 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class Main {
-    public static void main(String[] args) {
+public class BugTrackingSystemApplication {
+    public static void main(String[] args) throws ProjectNotFoundException, UserNotFoundException, UserAlreadyExistsException {
         Scanner scanner = new Scanner(System.in);
         UserServiceImpl userService = new UserServiceImpl();
         ProjectServiceImpl projectService = new ProjectServiceImpl();

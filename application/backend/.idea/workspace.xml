@@ -6,14 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="dca2b662-7671-4085-8adb-d32ac1bebcfc" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/in/co/hsbc/bugtrackingsystem/BugTrackingSytemApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/in/co/hsbc/bugtrackingsystem/BugTrackingSytemApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/in/co/hsbc/bugtrackingsystem/entity/Project.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/in/co/hsbc/bugtrackingsystem/entity/Project.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/in/co/hsbc/bugtrackingsystem/service/BugService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/in/co/hsbc/bugtrackingsystem/service/BugService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/in/co/hsbc/bugtrackingsystem/service/impl/BugServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/in/co/hsbc/bugtrackingsystem/service/impl/BugServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/in/co/hsbc/bugtrackingsystem/BugDaoImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/in/co/hsbc/bugtrackingsystem/BugDaoImplTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/in/co/hsbc/bugtrackingsystem/ProjectDaoImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/in/co/hsbc/bugtrackingsystem/ProjectDaoImplTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/in/co/hsbc/bugtrackingsystem/UserDaoImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/in/co/hsbc/bugtrackingsystem/UserDaoImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/in/co/hsbc/bugtrackingsystem/BugTrackingSytemApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/in/co/hsbc/bugtrackingsystem/BugTrackingSystemApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/in/co/hsbc/bugtrackingsystem/view/View.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/in/co/hsbc/bugtrackingsystem/view/View.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
