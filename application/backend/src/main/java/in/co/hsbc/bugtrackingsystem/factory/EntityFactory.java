@@ -14,7 +14,7 @@ public class EntityFactory {
 
     // Factory method to create a Project
     public static Project createProject(String projectId, String projectName, LocalDate startDate, Project.Status status, User projectManager, List<User> teamMembers) {
-        Project project = new Project(projectId, projectName, startDate, status, projectManager);
+        Project project = new Project(projectId, projectName, startDate, status);
         project.setTeamMembers(teamMembers);
         return project;
     }

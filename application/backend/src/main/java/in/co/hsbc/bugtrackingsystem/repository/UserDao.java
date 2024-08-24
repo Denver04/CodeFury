@@ -7,7 +7,7 @@ import java.util.List;
 
 public interface UserDao {
 
-        void addUser(User user)throws UserAlreadyExistsException;
+        void addUser(User user) throws UserAlreadyExistsException, ClassNotFoundException;
         void updateUser(User user) throws UserNotFoundException;
         void deleteUser(String userId) throws UserNotFoundException;
         User getUserById(String userId);

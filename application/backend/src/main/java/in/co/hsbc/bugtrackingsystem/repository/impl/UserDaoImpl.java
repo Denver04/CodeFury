@@ -9,19 +9,28 @@ import in.co.hsbc.bugtrackingsystem.exception.UserNotFoundException;
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Scanner;
 
-public class UserDaoImpl implements UserDao {
+public class UserDaoImpl implements UserDao
+{
 
     @Override
-    public void addUser(User user) throws UserAlreadyExistsException
-    {
+    public void addUser(User user) throws UserAlreadyExistsException, ClassNotFoundException {
+        Class.forName("com.mysql.cj.jdbc.Driver");
+
+        String url = "jdbc:mysql://localhost:3306/";
+        String username = "root";
+        String password = "ArpitMySQL@123";
+       // Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/","root","ArpitMySQL@123");
         // Check if user already exists
         if (getUserById(user.getUserId()) != null) {
             throw new UserAlreadyExistsException("User with ID " + user.getUserId() + " already exists.");
         }
 
         String sql = "INSERT INTO users (userId, name, email, role, lastLogin) VALUES (?, ?, ?, ?, ?)";
-        try (Connection conn = DatabaseConnection.getConnection();
+        Scanner sc = new Scanner(System.in);
+
+        try (Connection conn = DriverManager.getConnection(url, username, password);
              PreparedStatement stmt = conn.prepareStatement(sql)) {
             stmt.setString(1, user.getUserId());
             stmt.setString(2, user.getName());

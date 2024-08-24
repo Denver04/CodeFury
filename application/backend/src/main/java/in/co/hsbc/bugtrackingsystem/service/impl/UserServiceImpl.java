@@ -19,6 +19,8 @@ public class UserServiceImpl implements UserService {
             userDao.addUser(user);
         } catch (UserAlreadyExistsException e) {
             throw new UserAlreadyExistsException("User Already Exists");
+        } catch (ClassNotFoundException e) {
+            throw new RuntimeException(e);
         }
     }
 

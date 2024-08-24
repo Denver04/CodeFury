@@ -6,8 +6,27 @@
   <component name="ChangeListManager">
     <list default="true" id="dca2b662-7671-4085-8adb-d32ac1bebcfc" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/in/co/hsbc/bugtrackingsystem/BugTrackingSytemApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/in/co/hsbc/bugtrackingsystem/BugTrackingSystemApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/in/co/hsbc/bugtrackingsystem/view/View.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/in/co/hsbc/bugtrackingsystem/view/View.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/in/co/hsbc/bugtrackingsystem/factory/EntityFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/in/co/hsbc/bugtrackingsystem/factory/EntityFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/in/co/hsbc/bugtrackingsystem/repository/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/in/co/hsbc/bugtrackingsystem/repository/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/in/co/hsbc/bugtrackingsystem/repository/impl/UserDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/in/co/hsbc/bugtrackingsystem/repository/impl/UserDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/in/co/hsbc/bugtrackingsystem/util/DatabaseConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/in/co/hsbc/bugtrackingsystem/util/DatabaseConnection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/BugTrackingSystemMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/in/co/hsbc/bugtrackingsystem/exception/BugNotFoundException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/in/co/hsbc/bugtrackingsystem/exception/BugNotFoundException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/in/co/hsbc/bugtrackingsystem/exception/ProjectNotFoundException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/in/co/hsbc/bugtrackingsystem/exception/ProjectNotFoundException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/in/co/hsbc/bugtrackingsystem/exception/UserNotFoundException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/in/co/hsbc/bugtrackingsystem/exception/UserNotFoundException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/in/co/hsbc/bugtrackingsystem/repository/BugDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/in/co/hsbc/bugtrackingsystem/repository/BugDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/in/co/hsbc/bugtrackingsystem/repository/ProjectDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/in/co/hsbc/bugtrackingsystem/repository/ProjectDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/in/co/hsbc/bugtrackingsystem/repository/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/in/co/hsbc/bugtrackingsystem/repository/UserDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/in/co/hsbc/bugtrackingsystem/repository/impl/BugDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/in/co/hsbc/bugtrackingsystem/repository/impl/BugDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/in/co/hsbc/bugtrackingsystem/repository/impl/ProjectDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/in/co/hsbc/bugtrackingsystem/repository/impl/ProjectDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/in/co/hsbc/bugtrackingsystem/repository/impl/UserDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/in/co/hsbc/bugtrackingsystem/repository/impl/UserDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/in/co/hsbc/bugtrackingsystem/service/BugService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/in/co/hsbc/bugtrackingsystem/service/BugService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/in/co/hsbc/bugtrackingsystem/service/ProjectService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/in/co/hsbc/bugtrackingsystem/service/ProjectService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/in/co/hsbc/bugtrackingsystem/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/in/co/hsbc/bugtrackingsystem/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/in/co/hsbc/bugtrackingsystem/service/impl/BugServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/in/co/hsbc/bugtrackingsystem/service/impl/BugServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/in/co/hsbc/bugtrackingsystem/service/impl/ProjectServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/in/co/hsbc/bugtrackingsystem/service/impl/ProjectServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/in/co/hsbc/bugtrackingsystem/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/in/co/hsbc/bugtrackingsystem/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/in/co/hsbc/bugtrackingsystem/util/DatabaseConnection.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/in/co/hsbc/bugtrackingsystem/util/DatabaseConnection.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +57,7 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Application.BugTrackingSystemApplication.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
@@ -74,5 +94,16 @@
       <updated>1723974786657</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/in/co/hsbc/bugtrackingsystem/repository/impl/UserDaoImpl.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
