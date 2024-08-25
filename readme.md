@@ -21,11 +21,11 @@ The Bug Tracking System is a comprehensive application that allows project manag
    
 **Prerequisites**
 
-1) HTML, CSS, JS 
-2)Java 8+
-3)Maven
-4)MySQL Server
-5)IDE: IntelliJ IDEA, Eclipse, or any Java IDE, Vscode for Frontend
+1) HTML, CSS, JS
+2) Java 8+
+3) Maven
+4) MySQL Server
+5) IDE: IntelliJ IDEA, Eclipse, or any Java IDE, Vscode for Frontend
 
 
 **Database Setup**
