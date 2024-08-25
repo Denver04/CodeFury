@@ -21,8 +21,11 @@ The Bug Tracking System is a comprehensive application that allows project manag
 **Prerequisites**
 
 1)Java 8+
+
 2)Maven
+
 3)MySQL Server
+
 4)IDE: IntelliJ IDEA, Eclipse, or any Java IDE
 
 
@@ -70,6 +73,8 @@ CREATE TABLE bugs (
     FOREIGN KEY (assigned_to) REFERENCES users(user_id),
     FOREIGN KEY (project_id) REFERENCES projects(project_id)
 );
+
+
 **Project Setup**
 
 1) Clone the repository:
@@ -90,6 +95,8 @@ private static final String PASSWORD = "your-password";
 bash
 Copy code
 mvn clean install
+
+
 **Running the Application**
 
 Via IDE: Open the project in your preferred IDE, configure the main class, and run the application.
@@ -97,14 +104,21 @@ Testing: To run unit tests, execute:
 bash
 Copy code
 mvn test
+
+
 **Functionality**
 
 Add User: Create a new user in the system with roles (Tester, Developer, or Project Manager).
 Add Project: Create and assign a project to users.
 Report Bug: Testers can report bugs, and Project Managers can assign them to developers.
 Track Bug: Monitor the status of bugs through the development cycle.
+
+
 **Troubleshooting**
 Database connection issues: Ensure MySQL server is running and connection details are correct.
+
 Dependencies: Ensure all dependencies are installed via Maven.
+
+
 **Contributing**
 If you’d like to contribute, please fork the repository and submit a pull request.
