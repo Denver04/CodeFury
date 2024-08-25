@@ -81,37 +81,55 @@ CREATE TABLE bugs (
 
 bash
 Copy code
-git clone https://github.com/your-repo/bug-tracking-system.git
-cd bug-tracking-system
+git clone https://github.com/Denver04/CodeFury.git
+
+cd application/
+
+
 2) Configure MySQL connection: In the DatabaseConnection.java file, update the following parameters:
 
 java
 Copy code
+
 private static final String URL = "jdbc:mysql://localhost:3306/bug_tracking_system";
+
 private static final String USER = "your-username";
+
 private static final String PASSWORD = "your-password";
+
+
 3) Build the project using Maven:
 
 bash
+
 Copy code
+
 mvn clean install
 
 
 **Running the Application**
 
 Via IDE: Open the project in your preferred IDE, configure the main class, and run the application.
+
 Testing: To run unit tests, execute:
+
 bash
+
 Copy code
+
 mvn test
 
 
 **Functionality**
 
 Add User: Create a new user in the system with roles (Tester, Developer, or Project Manager).
+
 Add Project: Create and assign a project to users.
+
 Report Bug: Testers can report bugs, and Project Managers can assign them to developers.
+
 Track Bug: Monitor the status of bugs through the development cycle.
+
 
 
 **Troubleshooting**
