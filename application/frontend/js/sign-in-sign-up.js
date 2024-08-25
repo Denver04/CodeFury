@@ -22,20 +22,22 @@ function auth(event) {
     (email === "projectManager@hsbc.co.in" && password === "projectManager@123") ||
     (user.jobRole === "Project Manager" && user.password === password)
   ) {
-    window.location.replace("/index.html"); // Project Manager route
-  } else if (
+    window.location.replace("/application/frontend/projectManagerDashboard.html"); // Project Manager route
+  }
+  else if (
     (email === "developer@hsbc.co.in" && password === "developer@456") ||
     (user.jobRole === "Developer" && user.password === password)
   ) {
-    window.location.replace("/index.html"); // Developer route
-  } else if (
+    window.location.replace("/application/frontend/developerDashboard.html"); // Developer route
+  }
+  else if (
     (email === "tester@hsbc.co.in" && password === "tester@789") ||
     (user.jobRole === "Tester" && user.password === password)
   ) {
-    window.location.replace("/index.html"); // Tester route
-  } else {
+    window.location.replace("/application/frontend/testerDashboard.html"); // Tester route
+  }
+  else{
     alert("Invalid information");
-    return;
   }
 }
 
@@ -52,5 +54,5 @@ function saveSignUpDetails(event) {
   localStorage.setItem(email, jsonString);
 
   alert("Sign Up Successfully!!");
-  window.location.replace("/sign-in-sign-up.html");
+  window.location.replace("/application/frontend/sign-in-sign-up.html");
 }

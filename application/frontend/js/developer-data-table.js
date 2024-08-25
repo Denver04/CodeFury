@@ -36,34 +36,32 @@ fetch("./data/bug_reports.json")
             if (type === "display") {
               if (data === "In Progress")
                 return `<div class="d-flex justify-content-center">
-                    <select name="status" id="status" class="w-100 text-sm text-bg-danger p-1">
-                        <option value=${data}>In-progress</option>
-                        <option value="open">Open</option>
-                        <option value="closed">Closed</option>
+                    <select name="status" id="status" class="w-150 text-sm p-1 rounded-pill text-center">
+                        <option value=${data} class="text-bg-warning text-white">In-Progress</option>
+                        <option value="open" class="text-bg-primary">Open</option>
+                        <option value="closed" class="text-bg-success">Closed</option>
                     </select>
                     </div>`;
               else if (data === "Open")
                 return `<div class="d-flex justify-content-center">                              
-                    <select name="status" id="status" class="w-100 text-sm text-black p-1">
-                        <option value=${data}>Open</option>
-                        <option value="in-progress">In-Progress</option>
-                        <option value="closed">Closed</option>
+                    <select name="status" id="status" class="w-150 text-sm p-1 rounded-pill text-center">
+                        <option value=${data} class="text-bg-primary">Open</option>
+                        <option value="in-progress" class="text-bg-warning text-white">In-Progress</option>
+                        <option value="closed" class="text-bg-success">Closed</option>
                     </select>
                     </div>`;
               else if (data === "Closed")
                 return `<div class="d-flex justify-content-center">                              
-                    <select name="status" id="status" class="w-100 text-sm text-bg-danger p-1">
-                        <option value=${data} class="text-primary">Closed</option>
-                        <option value="open">Open</option>
-                        <option value="in-progress">In-Progress</option>
+                    <select name="status" id="status" class="w-150 text-sm p-1 rounded-pill text-center">
+                        <option value=${data} class="text-bg-success">Closed</option>
+                        <option value="open" class="text-bg-primary">Open</option>
+                        <option value="in-progress" class="text-bg-warning text-white">In-Progress</option>
                     </select>
                     </div>`;
             }
             return data;
           },
         },
-        // { data: "createdBy" },
-        // { data: "assignedTo" },
         {
           data: "createdOn",
           render: function (data, type) {
