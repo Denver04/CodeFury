@@ -98,7 +98,7 @@
                         <div>Date: 30-08-2024</div>
                         <div>Time: 10:30 AM</div>
                     </div>
-            </div>
+                </div>
             </nav>
         </div>
         <!-- Sidebar End -->
@@ -252,54 +252,81 @@
                             </div>
                             <div class="modal-body">
                                 <form id="projectForm">
+                                    <!-- Tester Name -->
+                                    <div class="row mb-3">
+                                        <label for="inputProjectName" class="col-sm-2 col-form-label">Tester
+                                            Name</label>
+                                        <div class="col-sm-10">
+                                            <input class="form-control" type="text" placeholder="Niharika Harmalkar"
+                                                aria-label="Disabled input example" disabled>
+                                        </div>
+                                    </div>
+
                                     <!-- Project Name -->
                                     <!-- drop down because the tester can only choose from the assigned projects  -->
                                     <div class="row mb-3">
-                                      <label for="inputProjectName" class="col-sm-2 col-form-label">Project Name</label>
-                                      <div class="col-sm-10">
-                                        <input type="text" class="form-control text-primary" id="inputProjectName" required />
-                                      </div>
+                                        <label for="inputProjectName" class="col-sm-2 col-form-label">Project
+                                            Name</label>
+                                        <div class="col-sm-10">
+                                            <input type="text" class="form-control text-primary" id="inputProjectName"
+                                                required />
+                                        </div>
                                     </div>
-                      
+
                                     <!-- Bug Title -->
                                     <div class="row mb-3">
-                                      <label for="inputBugTitle" class="col-sm-2 col-form-label">Bug Title</label>
-                                      <div class="col-sm-10">
-                                        <input type="text" class="form-control text-primary" id="inputBugTitle" required />
-                                      </div>
+                                        <label for="inputBugTitle" class="col-sm-2 col-form-label">Bug Title</label>
+                                        <div class="col-sm-10">
+                                            <input type="text" class="form-control text-primary" id="inputBugTitle"
+                                                required />
+                                        </div>
                                     </div>
-                      
+
                                     <!-- Bug Description -->
                                     <div class="row mb-3">
-                                      <label for="inputBugDescription" class="col-sm-2 col-form-label">Bug Description</label>
-                                      <div class="col-sm-10">
-                                        <input type="text" class="form-control text-primary" id="inputBugDescription" required />
-                                      </div>
-                                    </div>
-                      
-                                    <!-- severity -->
-                      
-                                    <!-- Project Status -->
-                      
-                                    <div class="row mb-3">
-                                      <div class="col-sm-10 offset-sm-2">
-                                        <div class="form-check">
-                                          <input class="form-check-input" type="checkbox" id="gridCheck1" />
-                                          <label class="form-check-label" for="gridCheck1">
-                                            Confirm Information
-                                          </label>
+                                        <label for="inputBugDescription" class="col-sm-2 col-form-label">Bug
+                                            Description</label>
+                                        <div class="col-sm-10">
+                                            <input type="text" class="form-control text-primary"
+                                                id="inputBugDescription" required />
                                         </div>
-                                      </div>
+                                    </div>
+
+                                    <!-- severity -->
+                                    <div class="row mb-3">
+                                        <label for="inputBugDescription" class="col-sm-2 col-form-label">Bug
+                                            Severity</label>
+                                        <div class="col-sm-10">
+                                            <select class="form-select" aria-label="Default select example" required>
+                                                <option selected>Select Severity</option>
+                                                <option value="1">High Risk</option>
+                                                <option value="2">Medium Risk</option>
+                                                <option value="3">Low Risk</option>
+                                            </select>
+                                        </div>
+                                    </div>
+
+                                    <!-- Project Status -->
+
+                                    <div class="row mb-3">
+                                        <div class="col-sm-10 offset-sm-2">
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" id="gridCheck1" />
+                                                <label class="form-check-label" for="gridCheck1">
+                                                    Confirm Information
+                                                </label>
+                                            </div>
+                                        </div>
                                     </div>
                                     <!-- <button type="submit" class="btn btn-primary">Sign in</button> -->
-                      
+
                                     <div class="modal-footer">
-                                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
-                                        Close
-                                      </button>
-                                      <button type="submit" class="btn btn-primary">Submit</button>
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                                            Close
+                                        </button>
+                                        <button type="submit" class="btn btn-primary">Submit</button>
                                     </div>
-                                  </form>
+                                </form>
                             </div>
                         </div>
                     </div>
@@ -347,7 +374,7 @@
     </div>
 
     <!-- JavaScript Libraries -->
-     <script src=".\js\addBug.js"></script>
+    <script src=".\js\addBug.js"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
     <script src="lib/chart/chart.min.js"></script>
