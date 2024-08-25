@@ -13,20 +13,19 @@ The Bug Tracking System is a comprehensive application that allows project manag
    
 **Technologies Used**
 
-1) Backend: Java (JDBC, DAO Pattern)
-2) Database: MySQL
-3) Testing: JUnit 5
-4) Build Tool: Maven
+1) Frontend: HTML, CSS, Bootstrap, JavaScript
+2) Backend: Java (JDBC, DAO Pattern)
+3) Database: MySQL
+4) Testing: JUnit 5
+5) Build Tool: Maven
    
 **Prerequisites**
 
-1)Java 8+
-
-2)Maven
-
-3)MySQL Server
-
-4)IDE: IntelliJ IDEA, Eclipse, or any Java IDE
+1) HTML, CSS, JS 
+2)Java 8+
+3)Maven
+4)MySQL Server
+5)IDE: IntelliJ IDEA, Eclipse, or any Java IDE, Vscode for Frontend
 
 
 **Database Setup**
